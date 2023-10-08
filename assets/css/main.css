@@ -2172,6 +2172,26 @@ input, select, textarea {
 						color: #0e5ced;
 					}
 
+/*---------- Esta es la recomendación ChatGPT para mis trabajos con la presentación de 2X4 -------------*/
+
+/* main.css */
+
+.contenedor-trabajos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    gap: 20px; /* Espacio entre elementos */
+}
+
+.trabajo {
+    border: 1px solid #ccc; /* Borde para cada trabajo (opcional) */
+    padding: 10px; /* Espaciado interno para cada trabajo (opcional) */
+}
+
+/* Estilo para la imagen dentro de .trabajo */
+.trabajo img {
+    max-width: 100%; /* Ajustar el tamaño máximo de la imagen */
+    height: auto; /* Mantener la proporción de aspecto de la imagen */
+}
 
 
 /*---------- Trabajos -------------*/
